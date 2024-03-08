@@ -3,7 +3,7 @@ function About() {
     return (
         
         <div className="about">
-            <div className="aboutTitle">About</div>
+            <div className="title">About</div>
             <div className="div">
                 Hi, I’m Mike, a junior developer dedicated to <br />
                 continuous growth and learning in the world<br />

@@ -28,13 +28,48 @@ body {
   display: 'flex';
   color: #fff;
 }
-.aboutTitle {
-  align-self: center;
+.title {
   font-feature-settings: "clig" off, "liga" off;
+  flex-grow: 1;
+  flex-basis: auto;
   font: 40px Merienda One, sans-serif;
 }
+.subTitle {
+  font-size: 24.7218789px;
+}
+
 .profilePicture {
   background-color: rgba(255, 255, 255, 0.2);
   min-height: 550px;
   max-width: 600px;
+}
+.projectContainer {
+  background-color: #222831;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 850px;
+  margin: 0 auto;
+  display: 'flex';
+  color: #fff;
+  text-align: center;
+  border: 10px solid white;
+}
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  border: 10px solid purple;
+}
+.projectImage {
+  background-color: #fff;
+  width: 400px;
+  height: 400px;
+  border: 10px solid red;
+}
+.tag {
+  border-radius: 149.5px;
+  border: 1px solid rgba(0, 173, 181, 1);
+  background-color: #393e46;
+  padding: 5px 30px;
+  margin: 10px; /* top right bottom left */
+  display: inline-block;
+  width: 55px;
 }
