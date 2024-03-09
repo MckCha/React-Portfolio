@@ -8,7 +8,7 @@ body {
   flex-basis: auto;
   font: 40px Merienda One, sans-serif;
 }
-.nav {
+.navContainer {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   background-color: #222831;
   display: flex;
@@ -20,33 +20,43 @@ body {
   line-height: 130%;
   padding: 10px 80px 18px 40px;
 }
-.about {
+.aboutContainer {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   background-color: #393E46;
-  height: 850px;
+  height: 650px;
   margin: 0 auto;
   display: 'flex';
   color: #fff;
+  border: 10px solid green;
+}
+.aboutRow {
+  border: 50px solid black;
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutDescription {
+  border: 50px solid purple;
 }
 .title {
   font-feature-settings: "clig" off, "liga" off;
   flex-grow: 1;
   flex-basis: auto;
   font: 40px Merienda One, sans-serif;
+  text-align: center;
 }
 .subTitle {
   font-size: 24.7218789px;
 }
-
 .profilePicture {
-  background-color: rgba(255, 255, 255, 0.2);
-  min-height: 550px;
-  max-width: 600px;
+  background-color: #fff;
+  height: 550px;
+  width: 600px;
+  border: 50px red;
 }
 .projectContainer {
   background-color: #222831;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  height: 850px;
+  height: 600px;
   margin: 0 auto;
   display: 'flex';
   color: #fff;
@@ -56,20 +66,34 @@ body {
 .projects {
   display: flex;
   justify-content: space-evenly;
-  border: 10px solid purple;
 }
 .projectImage {
   background-color: #fff;
   width: 400px;
   height: 400px;
   border: 10px solid red;
+  /*  border: 10px solid purple */
 }
 .tag {
   border-radius: 149.5px;
   border: 1px solid rgba(0, 173, 181, 1);
   background-color: #393e46;
   padding: 5px 30px;
-  margin: 10px; /* top right bottom left */
+  margin: 10px; /* top right bottom left */ 
   display: inline-block;
   width: 55px;
+}
+.footerContainer {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border-color: rgba(0, 173, 181, 1);
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  background-color: #252729;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  margin: 25px 50px;/* top right bottom left */
 }
