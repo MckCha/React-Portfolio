@@ -1,13 +1,7 @@
 body {
   margin: 0
 }
-.nav-name {
-  text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
-  flex-grow: 1;
-  flex-basis: auto;
-  font: 40px Merienda One, sans-serif;
-}
+
 .navContainer {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   background-color: #222831;
@@ -18,7 +12,8 @@ body {
   color: #fff;
   font-weight: 400;
   line-height: 130%;
-  padding: 10px 80px 18px 40px;
+  padding: 0px 80px 18px 0px;
+  height: 80px;
 }
 .aboutContainer {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -27,15 +22,14 @@ body {
   margin: 0 auto;
   display: 'flex';
   color: #fff;
-  border: 10px solid green;
 }
 .aboutRow {
-  border: 50px solid black;
+  border: 20px solid black;
   display: flex;
   justify-content: space-evenly;
 }
 .aboutDescription {
-  border: 50px solid purple;
+  border: 20px solid purple;
 }
 .title {
   font-feature-settings: "clig" off, "liga" off;
@@ -43,7 +37,9 @@ body {
   flex-basis: auto;
   font: 40px Merienda One, sans-serif;
   text-align: center;
-}
+  padding-top: 25px;
+  margin: auto;
+} 
 .subTitle {
   font-size: 24.7218789px;
 }
