@@ -1,5 +1,7 @@
 body {
-  margin: 0
+  margin: 0;
+  font-family: Quicksand; font-size: 15.2789614px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 44px;
+  text-align: center;
 }
 
 .navContainer {
@@ -22,7 +24,7 @@ body {
 }
 
 .navButton {
-  font: 24.7218789px Merienda One, sans-serif;
+  font: 24.7218789px;
   margin-left: 10px;
 }
 .navButton:nth-child(1) {
@@ -43,18 +45,24 @@ body {
 }
 .aboutDescription {
   border: 20px solid purple;
+  width: 640px;
+
 }
 .title {
   font-feature-settings: "clig" off, "liga" off;
   flex-grow: 1;
   flex-basis: auto;
-  font: 40px Merienda One, sans-serif;
+  font-family: Quicksand; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 44px;
   text-align: center;
-  padding: auto;
+  padding-top: 3%;
+  padding-bottom: 10px;
   margin: auto;
 }
 .mainTitle {
   text-align: left;
+  padding: 0;
+  font-size: 24.7218789px;
+  font-style: italic;
 }
 .subTitle {
   font-size: 24.7218789px;
@@ -68,16 +76,16 @@ body {
 .projectContainer {
   background-color: #222831;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  height: 600px;
+  height: 775px;
   margin: 0 auto;
   display: 'flex';
   color: #fff;
   text-align: center;
-  border: 10px solid white;
 }
 .projects {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 1%;
 }
 .projectImage {
   background-color: #fff;
@@ -97,14 +105,14 @@ body {
 }
 .footerContainer {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-  border-color: rgba(0, 173, 181, 1);
-  border-style: solid;
   border-top-width: 1px;
   border-bottom-width: 1px;
   background-color: #252729;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0.0%;
+  padding: 25px;
 }
 .img {
   margin: auto;/* top right bottom left */
