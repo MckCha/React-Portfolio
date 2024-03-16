@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: Quicksand; font-size: 15.2789614px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 44px;
   text-align: center;
+  line-height: 22.9184421px;
 }
 
 .navContainer {
@@ -46,13 +47,16 @@ body {
 .aboutDescription {
   border: 20px solid purple;
   width: 640px;
-
+}
+.aboutText {
+  text-align: left;
+  width: 640px;
 }
 .title {
   font-feature-settings: "clig" off, "liga" off;
   flex-grow: 1;
   flex-basis: auto;
-  font-family: Quicksand; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 44px;
+  font-family: Quicksand; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 52px;
   text-align: center;
   padding-top: 3%;
   padding-bottom: 10px;
