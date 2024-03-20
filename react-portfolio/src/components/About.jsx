@@ -9,7 +9,7 @@ function About() {
                     <div className="aboutText">
                         Hi, I'm Mike, a junior developer with a passion for learning and applying software
                         development skills. Armed with a Computer Science background. I'm actively engaged 
-                        in real-world projects and challenges,continuously seeking opportunities to grow."
+                        in real-world projects and challenges,continuously seeking opportunities to grow.
                     </div>
                 </div>
                 <div className="profilePicture"></div>
