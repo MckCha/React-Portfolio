@@ -2,7 +2,7 @@
 function Projects() {
     return (
         <div className="projectContainer">
-            <div className="title" style={{paddingTop: '100px'}}>Project</div>
+            <div className="title">Project</div>
             <div className="projects">
                 <div>
                     <div className="title subTitle">Bank Data Cleaner</div>
