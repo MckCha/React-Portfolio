@@ -2,7 +2,7 @@
 function Projects() {
     return (
         <div className="projectContainer">
-            <div className="title">Project</div>
+            <div className="title" style={{paddingTop: '100px'}}>Project</div>
             <div className="projects">
                 <div>
                     <div className="title subTitle">Bank Data Cleaner</div>
@@ -10,7 +10,7 @@ function Projects() {
                     <div className="tag">Python</div>
                     <div className="tag">Excel</div>
                     <div className="tag">Gui</div>
-                    <div className="title subTitle">Github : Bank Data Cleaner</div>
+                    <div className="title subTitle" >Github : Bank Data Cleaner</div>
                 </div>
                 <div>
                     <div className="title subTitle">Vibe View</div>
