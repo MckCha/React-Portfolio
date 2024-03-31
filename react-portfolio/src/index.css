@@ -35,7 +35,13 @@ body {
 .navButton {
   font: 24.7218789px;
   margin-left: 8px;
+  cursor: pointer;
 }
+
+.navButton:hover {
+  font-weight: bold;
+}
+
 .navButton:nth-child(1) {
   margin-left: 400px; /* No margin for the first button */
 }
