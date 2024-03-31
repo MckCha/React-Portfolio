@@ -11,7 +11,7 @@ function Navbar() {
     
 
     return (
-        <div className="navContainer">
+        <div className="navContainer hidden">
             <div className="title name">Mike Cha</div>
             <div className="navButtons">
                 <div className="navButton" onClick={() => scrollToSection('aboutContainer')}>About</div>

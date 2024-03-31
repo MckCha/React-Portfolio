@@ -3,7 +3,7 @@ function About() {
     return (
         
         <div className="aboutContainer">
-            <div className="aboutRow">
+            <div className="aboutRow hidden">
                 <div className="aboutDescription">
                     <div className="title" style={{textAlign: 'left'}}>About</div>
                     <div className="aboutText">
