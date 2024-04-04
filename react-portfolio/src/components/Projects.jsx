@@ -3,6 +3,9 @@ import vibeViewGif from '../assets/vibe-view-demo.gif';
 import blockbusterGif from '../assets/blockbuster2-demo.gif';
 
 function Projects() {
+    const handleClick = (url) => {
+        window.location.href = url;
+    }
     return (
         <div className="projectContainer hidden">
             <div className="title">Projects</div>
@@ -15,7 +18,9 @@ function Projects() {
                     <div className="tag">Python</div>
                     <div className="tag">Excel</div>
                     <div className="tag">Gui</div>
-                    <div className="title subTitle" >Github : Financial Data Sanitizer</div>
+                    <div className="title subTitle">
+                        <span className="span" onClick={() => handleClick('https://github.com/MckCha/Financial-Data-Sanitizer')}>Github : Financial Data Sanitizer</span>
+                    </div>
                 </div>
                 <div>
                     <div className="title subTitle">Vibe View</div>
@@ -25,7 +30,9 @@ function Projects() {
                     <div className="tag">Php</div>
                     <div className="tag">JScript</div>
                     <div className="tag">Api</div>
-                    <div className="title subTitle">Github : Vibe View</div>
+                    <div className="title subTitle">
+                        <span className="span" onClick={() => handleClick('https://github.com/SamuelKaing/Senior-Project')}>Github : Vibe View</span>
+                    </div>
                 </div>
                 <div>
                     <div className="title subTitle">Blockbuster 2</div>
@@ -35,11 +42,14 @@ function Projects() {
                     <div className="tag">Html</div>
                     <div className="tag">Php</div>
                     <div className="tag">Sql</div>
-                    <div className="title subTitle">Github : Blockbuster 2</div>
+                    <div className="title subTitle">
+                        <span className="span" onClick={() => handleClick('https://github.com/MckCha/blockbuster2')}>Github : Blockbuster 2</span>
+                    </div>
                 </div>
             </div>
         </div>
     )
 }
+
 
 export default Projects
