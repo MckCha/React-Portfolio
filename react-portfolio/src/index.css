@@ -54,11 +54,19 @@ body {
 }
 .hidden {
   opacity: 0;
-  transition: all 5s;
+  transition: all 3.5s;
+}
+
+@media(prefers-reduced-motion: reduce) {
+  .hidden {
+    transition: none;
+  }
 }
 
 .show {
-  opacity: 1
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }
 
 .aboutContainer {
@@ -96,7 +104,8 @@ body {
   font-size: 20.25px; letter-spacing: -2%;
 }
 .profilePicture {
-  background-color: #fff;
+  border: 1px solid #1B2A41;
+  background-color: #0C1821;
   height: 550px;
   width: 600px;
   border: 50px red;
@@ -105,7 +114,7 @@ body {
   background-color: #000000;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-align: center;
-  margin-bottom: 56px;
+  margin-bottom: 32px;
   border-top: 1px solid;
   
 }
@@ -114,9 +123,11 @@ body {
   justify-content: space-evenly;
 }
 .projectImage {
-  background-color: #fff;
+  border: 1px solid #1B2A41;
+  background-color: #0C1821;
   width: 400px;
   height: 400px;
+  margin-bottom: 4px;
   /*  border: 10px solid purple */
 }
 .tag {

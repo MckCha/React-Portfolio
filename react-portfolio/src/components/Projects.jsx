@@ -1,16 +1,19 @@
+import financialGif from '../assets/financial-data-demo.gif';
 
 function Projects() {
     return (
         <div className="projectContainer hidden">
-            <div className="title">Project</div>
+            <div className="title">Projects</div>
             <div className="projects">
                 <div>
-                    <div className="title subTitle">Bank Data Cleaner</div>
-                    <div className="projectImage"></div>
+                    <div className="title subTitle">Financial Data Sanitizer</div>
+                    <div className="projectImage">
+                        <img src= {financialGif} style={{width: '400px', height: 'auto'}}/>
+                    </div>
                     <div className="tag">Python</div>
                     <div className="tag">Excel</div>
                     <div className="tag">Gui</div>
-                    <div className="title subTitle" >Github : Bank Data Cleaner</div>
+                    <div className="title subTitle" >Github : Financial Data Sanitizer</div>
                 </div>
                 <div>
                     <div className="title subTitle">Vibe View</div>

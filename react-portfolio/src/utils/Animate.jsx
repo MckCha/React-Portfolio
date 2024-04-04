@@ -9,7 +9,7 @@ function Animate() {
             }
         });
     });
-    const hiddenElements = document.querySelectorAll('.navContainer, .introContainer, .aboutRow ,.projectContainer, .footerContaner');
+    const hiddenElements = document.querySelectorAll('.navContainer, .introContainer, .aboutRow ,.projectContainer, .footerContainer');
     hiddenElements.forEach((el) => observer.observe(el));
     return (
         <></>

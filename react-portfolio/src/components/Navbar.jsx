@@ -1,5 +1,3 @@
-import About from "./About";
-
 function Navbar() {
     const scrollToSection = (className) => {
         const section = document.querySelector(`.${className}`);
@@ -8,8 +6,6 @@ function Navbar() {
             window.scrollTo({ top: scrollPosition, behavior: 'smooth' });
         }
     };
-    
-
     return (
         <div className="navContainer hidden">
             <div className="title name">Mike Cha</div>
