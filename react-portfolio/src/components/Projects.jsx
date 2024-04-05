@@ -1,11 +1,9 @@
 import financialGif from '../assets/financial-data-demo.gif';
 import vibeViewGif from '../assets/vibe-view-demo.gif';
 import blockbusterGif from '../assets/blockbuster2-demo.gif';
+import handleClick from '../utils/handleClick';
 
 function Projects() {
-    const handleClick = (url) => {
-        window.location.href = url;
-    }
     return (
         <div className="projectContainer hidden">
             <div className="title">Projects</div>
