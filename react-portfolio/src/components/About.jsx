@@ -12,7 +12,7 @@ function About() {
                         in real-world projects and challenges, continuously seeking opportunities to grow.
                     </div>
                 </div>
-                <div className="profilePicture"></div>
+                <div className="profilePicture"></div> 
             </div>
         </div>
         

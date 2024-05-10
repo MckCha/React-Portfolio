@@ -114,7 +114,7 @@ body {
 
 .profilePicture {
   border: 1px solid #1B2A41;
-  background-color: #0C1821;
+  /* background-color: #0C1821; */
   height: 550px;
   width: 600px;
   border: 50px red;
