@@ -7,7 +7,7 @@ function Footer() {
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/d2be6ee603aba73c69ea37d90e35b4d5982834ca8b6129c3a667551c5b7ee9f9?"
               className="img"
-              onClick={() => handleClick('https://www.linkedin.com/in/mike-cha-b62776202/')}
+              onClick={() => handleClick('https://www.linkedin.com/in/mike-cha/')}
             />
           <img
             loading="lazy"
