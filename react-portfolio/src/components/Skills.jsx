@@ -8,19 +8,19 @@ const skillCategories = [
     skills: [
       { name: 'Python', level: 90 },
       { name: 'JavaScript', level: 85 },
-      { name: 'TypeScript', level: 75 },
-      { name: 'SQL', level: 85 },
+      { name: 'C++', level: 70 },
+      { name: 'SQL', level: 90 },
       { name: 'PHP', level: 70 },
       { name: 'Java', level: 65 },
     ],
   },
   {
-    title: 'Frontend',
+    title: 'Frameworks & Libraries',
     skills: [
       { name: 'React', level: 85 },
       { name: 'HTML/CSS', level: 90 },
-      { name: 'Tailwind CSS', level: 80 },
-      { name: 'Framer Motion', level: 70 },
+      { name: 'Docker', level: 60 },
+      { name: 'AWS', level: 60 },
     ],
   },
   {
